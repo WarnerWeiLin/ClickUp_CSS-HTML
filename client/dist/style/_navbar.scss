@@ -1,0 +1,110 @@
+.flexbox {
+  display: flex;
+}
+
+.flexrow {
+  flex-direction: row;
+}
+
+.flexcol {
+  flex-direction: column;
+}
+
+.flexaligncenter {
+  align-content: center;
+}
+
+.flexalignselfcenter {
+  align-self: center;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  min-width: 1120px;
+  justify-content: space-between;
+}
+
+.nav__rectangle32 {
+  width: 20px;
+  height: 20px;
+  background: #9c69e2;
+  border-radius: 20px;
+}
+
+.nav__rectangle33 {
+  width: 20px;
+  height: 35px;
+  background: #f063b8;
+  border-radius: 20px;
+}
+
+.nav__logolinks {
+  display: flex;
+  align-items: center;
+}
+
+.nav__linkscontainer {
+  margin-left: 121px;
+  display: flex;
+  min-width: 322px;
+  justify-content: space-between;
+}
+
+.nav__link {
+  height: 26px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  text-decoration: none;
+  color: #4b5d68;
+}
+
+.nav__about {
+  width: 53px;
+  height: 30px;
+  font-weight: 800;
+  color: #212353;
+}
+
+.nav__help {
+  width: 35px;
+  left: 503px;
+}
+.nav__features {
+  width: 63px;
+  left: 578px;
+}
+.nav__signup {
+  width: 51px;
+  left: 681px;
+}
+
+.nav__button-text {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+
+}
+
+.request-demo-button {
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+
+.nav__button {
+  width: 210px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+

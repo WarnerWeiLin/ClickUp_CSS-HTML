@@ -1,0 +1,118 @@
+@import "./variables.scss";
+@import "./calltoaction.scss";
+@import "./features.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./navbar.scss";
+@import "./section.scss";
+@import "./testimonials.scss";
+
+/* Border box declaration
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* inherit border-box on all elements in the universe and before and after
+ */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.wrapper {
+  display: grid;
+	max-width: 1600px;
+  grid-template-rows:
+    165.5px //nav
+    564px //header
+    858.5px //section
+    1175.91px //features
+    859px //carousel
+    127px //bar
+    276px //cta
+    374px;//footer
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h";
+}
+
+.nav {
+  grid-area: a;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  justify-content: center;
+}
+
+.header {
+  grid-area: b;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  justify-content: center;
+}
+.section {
+  grid-area: c;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 auto;
+  justify-content: center;
+}
+.features {
+  grid-area: d;
+}
+.testimonials {
+  grid-area: e;
+}
+.bar {
+  grid-area: f;
+}
+.cta {
+  grid-area: g;
+}
+.footer {
+  grid-area: h;
+}
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px)  {
+  // .wrapper {
+  //   grid-template-rows:
+  //   // TBD
+  //     165.5px //nav
+  //     514.09px //header
+  //     858.5px //section
+  //     1175.91px //features
+  //     859px //carousel
+  //     127px //bar
+  //     276px //cta
+  //     374px;//footer
+  // }
+}
+
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    grid-template-rows:
+      165.5px //nav
+      564px //header
+      858.5px //section
+      1175.91px //features
+      859px //carousel
+      127px //bar
+      276px //cta
+      374px;//footer
+  }
+
+}

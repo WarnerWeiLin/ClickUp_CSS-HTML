@@ -1,0 +1,46 @@
+.cta__title {
+  position: absolute;
+  width: 405px;
+  height: 52px;
+  left: 240px;
+  top: 3750px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+
+.cta__content {
+  position: absolute;
+  width: 584px;
+  height: 29px;
+  left: 240px;
+  top: 3865px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.cta__button-learn {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 947px;
+  top: 3771px;
+  background: #f063b8;
+}
+
+.cta__button-request {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  left: 1147px;
+  top: 3771px;
+}

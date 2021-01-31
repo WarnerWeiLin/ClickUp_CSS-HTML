@@ -1,0 +1,81 @@
+.embla__slide {
+  position: relative;
+  // min-width: 80%;
+  margin-right: 20px;
+
+  width: 645px;
+  height: 330px;
+}
+
+.is-selected + .is-selected {
+  .embla__slide__inner {
+    background-image: linear-gradient(270deg, #9C69E2 9.75%, rgba(255, 255, 255, 0) 100%)!important;
+  }
+}
+
+.embla__slide__inner {
+  // position: absolute;
+  width: 645px;
+  height: 330px;
+  // left: 93px;
+  // top: 249px;
+
+
+  background: #FFFFFF;
+  box-shadow: 0px 20px 0px rgb(138,86,219);
+  border-radius: 20px;
+}
+
+.embla__slide__img {
+  //position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.embla__slide__name{
+position: absolute;
+width: 170px;
+height: 29px;
+left: 190px;
+top: 80px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #212353;
+}
+.embla__slide__credibility{
+position: absolute;
+width: 101px;
+height: 22px;
+left: 190px;
+top: 109px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+color: #9C69E2;
+}
+
+.embla__slide__content{
+position: absolute;
+width: 385px;
+height: 130px;
+left: 190px;
+top: 150px;
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 180%;
+color: #4B5D68;
+}

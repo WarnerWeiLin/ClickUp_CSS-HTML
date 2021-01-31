@@ -1,0 +1,59 @@
+.section__background {
+  background-image: url(../media/Rectangle-34section.svg);
+
+  // max-width: 1117px;
+  width: 1117px;
+  height: 560px;
+  // max-height: 560px;
+
+  position: absolute;
+  left: 240px;
+  top: 903.18px;
+
+  border-radius: 50px;
+}
+
+.section__image {
+  /* image2  */
+
+  position: absolute;
+  left: 251px;
+  top: 935px;
+  width: 477px;
+  height: 504px;
+
+  background: url(../media/image2section.svg);
+}
+.section__title {
+  position: absolute;
+  width: 475px;
+  height: 100px;
+  left: 790px;
+  top: 1028.18px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+
+.section__content {
+  position: absolute;
+  width: 474px;
+  height: 170px;
+  left: 790px;
+  top: 1168.18px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  /* 1 */
+  color: #4b5d68;
+}
